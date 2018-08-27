@@ -1,5 +1,10 @@
 import random
-i = random.randint(1, 100)
+ceil = input('please enter the upper limit you want: ')
+floor = input('please enter the lower limit you want: ')
+ceil = int(ceil)
+floor = int(floor)
+
+i = random.randint(floor, ceil)
 k = 0
 while True:
 	k += 1
